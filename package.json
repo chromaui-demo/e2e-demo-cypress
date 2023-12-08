@@ -32,7 +32,9 @@
     "prepare": "husky install",
     "lint": "eslint --fix .",
     "prettier": "prettier --write .",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "archive-storybook": "CHROMATIC_ARCHIVE_LOCATION=./cypress/downloads archive-storybook",
+    "build-archive-storybook": "CHROMATIC_ARCHIVE_LOCATION=./cypress/downloads build-archive-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,6 +53,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@chromaui/archive-storybook": "^0.0.18",
+    "@chromaui/test-archiver": "^0.0.44",
     "@ladle/react": "^2.4.5",
     "@storybook/addon-a11y": "7.5.3",
     "@storybook/addon-coverage": "^0.0.9",
@@ -62,6 +66,7 @@
     "@storybook/jest": "^0.2.2",
     "@storybook/react": "7.5.3",
     "@storybook/react-vite": "7.5.3",
+    "@storybook/server-webpack5": "7.5.3",
     "@storybook/test-runner": "0.13.0",
     "@storybook/testing-library": "^0.2.0",
     "@storybook/testing-react": "2.0.0",
