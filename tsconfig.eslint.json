@@ -6,7 +6,9 @@
     "functions/*.ts",
     ".eslintrc.js",
     "test-runner-jest.config.js",
+    "cypress.config.ts",
     "vite.config.ts",
     "vitest.config.ts",
+    "cypress/**/*.ts"
   ]
 }
