@@ -9,4 +9,4 @@ Showcases Chromatic's [E2E Visual Tests](https://www.chromatic.com/docs/e2e-visu
 4. Run `yarn cypress run` to run the Cypress tests (which we automatically snapshot)
 5. (Optional) Run `yarn archive-storybook` to see the storybook created for the tests (e.g. to visually see what we snapshotted)
 6. Run `npx chromatic@latest --build-script-name=build-archive-storybook -t=<project-token>` to make a Chromatic build
-7. Inspect the build in [Chromatic](https://www.chromatic.com/builds?appId=657346daa516d3d8e5aacd9e)https://www.chromatic.com/builds?appId=657346daa516d3d8e5aacd9e
+7. Inspect the build in [Chromatic](https://www.chromatic.com/builds?appId=657346daa516d3d8e5aacd9e)
