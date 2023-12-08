@@ -1,4 +1,5 @@
 import { defineConfig } from 'cypress'
+// @ts-expect-error TODO: Export typings
 import { archiveCypress } from '@chromaui/test-archiver/cypress'
 
 export default defineConfig({
