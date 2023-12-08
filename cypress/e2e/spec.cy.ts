@@ -9,13 +9,14 @@ describe('template spec', () => {
     cy.visit('http://localhost:3000/restaurants/2')
 
     cy.wait(1000)
-    // await takeArchive(page, testInfo)
+    // @ts-expect-error
+    cy.takeChromaticArchive()
 
     cy.contains('h4', 'Fries').click()
 
     cy.get('[data-testid="modal"]').should('be.visible')
-
-    // await takeArchive(page, testInfo)
+    // @ts-expect-error
+    cy.takeChromaticArchive()
 
     cy.contains('button', /add for €2\.50/).click()
 
