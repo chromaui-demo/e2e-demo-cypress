@@ -2,10 +2,11 @@ describe('template spec', () => {
   it('loads homepage', () => {
     cy.visit('http://localhost:3000')
 
+    cy.wait(1000)
     cy.title().should('equal', 'Mealdrop - find your next meal')
   })
 
-  // it('creates an order', () => {
+  // it('creates a new order', () => {
   //   cy.visit('http://localhost:3000/restaurants/2')
 
   //   cy.wait(1000)
