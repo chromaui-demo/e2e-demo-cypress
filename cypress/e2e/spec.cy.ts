@@ -10,7 +10,7 @@ describe('template spec', () => {
     cy.visit('http://localhost:3000/restaurants/2')
 
     cy.wait(1000)
-    // @ts-expect-error
+    // @ts-expect-error as
     cy.takeChromaticArchive()
 
     cy.contains('h4', 'Fries').click()
