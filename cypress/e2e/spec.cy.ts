@@ -11,13 +11,13 @@ describe('template spec', () => {
 
     cy.wait(1000)
     // @ts-expect-error as
-    cy.takeChromaticArchive()
+    cy.takeSnapshot()
 
     cy.contains('h4', 'Fries').click()
 
     cy.get('[data-testid="modal"]').should('be.visible')
     // @ts-expect-error
-    cy.takeChromaticArchive()
+    cy.takeSnapshot()
 
     cy.contains('button', /add for €2\.50/).click()
 
