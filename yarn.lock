@@ -1556,9 +1556,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chromatic-com/cypress@npm:^0.5.4":
-  version: 0.5.4
-  resolution: "@chromatic-com/cypress@npm:0.5.4"
+"@chromatic-com/cypress@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@chromatic-com/cypress@npm:0.6.1"
   dependencies:
     "@segment/analytics-node": ^1.1.0
     "@storybook/addon-essentials": ^8.0.0-alpha.16
@@ -1571,7 +1571,7 @@ __metadata:
   bin:
     archive-storybook: dist/bin/archive-storybook.js
     build-archive-storybook: dist/bin/build-archive-storybook.js
-  checksum: ed12114cda303f538b8457b681ff38e6f40bca8171ffb902fdc6f1bed5c6188f6e743b749d54f14066e4e6e02663e42b283f0d7dbd2200feeab874a19f5a5186
+  checksum: 8bb2955cfa65f929972afe296e4268307ab0123de85cc6d2d844a57a26ea919a6e7954301a474a814cc85146143656dc3b2465426c5de70048bb03fed7bd33af
   languageName: node
   linkType: hard
 
@@ -8529,9 +8529,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^10.9.4":
-  version: 10.9.4
-  resolution: "chromatic@npm:10.9.4"
+"chromatic@npm:^11.0.6":
+  version: 11.0.6
+  resolution: "chromatic@npm:11.0.6"
   peerDependencies:
     "@chromatic-com/cypress": ^0.5.2 || ^1.0.0
     "@chromatic-com/playwright": ^0.5.2 || ^1.0.0
@@ -8544,7 +8544,7 @@ __metadata:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 90244fd4e32d879482fb50c602514337549330bf3c0b7d7b0ba0917af401fbec7fcc7acb77ae3b03a6a8d7374b21531f45d5448bdd9061f04835dfe651dcc2fc
+  checksum: 50a72820a9c578a9db735f952f09148f81430a2554f06ef9ac0989f5793c9f8a42cf8c55525751695b2ea8c5a17fddebea85cdd4c0cfe3e5b8a798ec27ea2c3c
   languageName: node
   linkType: hard
 
@@ -9075,7 +9075,7 @@ __metadata:
   resolution: "course-app@workspace:."
   dependencies:
     "@babel/core": ^7.14.6
-    "@chromatic-com/cypress": ^0.5.4
+    "@chromatic-com/cypress": ^0.6.1
     "@ladle/react": ^2.4.5
     "@reduxjs/toolkit": ^1.7.1
     "@storybook/addon-a11y": 7.5.3
@@ -9111,7 +9111,7 @@ __metadata:
     babel-plugin-istanbul: ^6.1.1
     babel-plugin-open-source: ^1.3.3
     c8: ^7.12.0
-    chromatic: ^10.9.4
+    chromatic: ^11.0.6
     cypress: ^13.6.1
     eslint: ^8.27.0
     eslint-config-airbnb-typescript: ^16.0.0
