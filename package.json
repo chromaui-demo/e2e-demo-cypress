@@ -127,5 +127,6 @@
     "*.{ts,tsx}": "eslint --fix",
     "*.{html,md}": "prettier --write"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "type": "module"
 }
