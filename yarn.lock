@@ -1556,9 +1556,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chromatic-com/cypress@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "@chromatic-com/cypress@npm:0.6.1"
+"@chromatic-com/cypress@npm:0.6.4-da738e7-20240312001347":
+  version: 0.6.4-da738e7-20240312001347
+  resolution: "@chromatic-com/cypress@npm:0.6.4-da738e7-20240312001347"
   dependencies:
     "@segment/analytics-node": ^1.1.0
     "@storybook/addon-essentials": ^8.0.0-alpha.16
@@ -1571,7 +1571,7 @@ __metadata:
   bin:
     archive-storybook: dist/bin/archive-storybook.js
     build-archive-storybook: dist/bin/build-archive-storybook.js
-  checksum: 8bb2955cfa65f929972afe296e4268307ab0123de85cc6d2d844a57a26ea919a6e7954301a474a814cc85146143656dc3b2465426c5de70048bb03fed7bd33af
+  checksum: b2553ece2c48b34998dab492c19d2c98ae017326dc8e4b0c0b00b9f0043767c6776b8be2f976c1775e2d8de4f9ce793a5bcd5531a791595a0ccce9eb19ac245a
   languageName: node
   linkType: hard
 
@@ -9075,7 +9075,7 @@ __metadata:
   resolution: "course-app@workspace:."
   dependencies:
     "@babel/core": ^7.14.6
-    "@chromatic-com/cypress": ^0.6.1
+    "@chromatic-com/cypress": 0.6.4-da738e7-20240312001347
     "@ladle/react": ^2.4.5
     "@reduxjs/toolkit": ^1.7.1
     "@storybook/addon-a11y": 7.5.3

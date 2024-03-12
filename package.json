@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
-    "@chromatic-com/cypress": "^0.6.1",
+    "@chromatic-com/cypress": "0.6.4-da738e7-20240312001347",
     "@ladle/react": "^2.4.5",
     "@storybook/addon-a11y": "7.5.3",
     "@storybook/addon-coverage": "^0.0.9",
