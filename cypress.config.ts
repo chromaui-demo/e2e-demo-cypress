@@ -1,7 +1,7 @@
 import { defineConfig } from 'cypress'
 import { installPlugin } from '@chromatic-com/cypress'
 
-module.exports = defineConfig({
+export default defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       installPlugin(on, config)
